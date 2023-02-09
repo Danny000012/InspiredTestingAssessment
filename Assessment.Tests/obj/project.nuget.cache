@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruD6KeNlEx16ZLSr1EzquN7qeK1dbfryQhwKtywByvR3AOCsZWTUqlDprkszzHaIpTXF5p+jUZpG6zpaUl0Ksg==",
+  "dgSpecHash": "zBGlitlVbkwSLw20k2UVpGIn/An12EPQ7MKy2MWNhs5QyBKbspg2qPWf2ojK48aonuPrBzbQI6lhfY3e4DqkmA==",
   "success": true,
-  "projectFilePath": "/Users/danny/Desktop/AutomationAssessment/Assessment.Tests/Assessment.Tests.csproj",
+  "projectFilePath": "/Users/danny/Desktop/InspiredTestingAssessment/Assessment.Tests/Assessment.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/danny/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/danny/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",

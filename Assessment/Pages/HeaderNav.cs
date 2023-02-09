@@ -10,12 +10,6 @@ namespace Assessment.Pages
         {
             Map = new HeaderNavMap(driver);
         }
-      
-        // public void GoToSearchedItem()
-        // {
-        //     Map.SearchItem.SendKeys("Acer Aspire 5");
-        //     Map.searchSubmit.Click();
-        // }
 
         public void GotoValentinesTab()
         {

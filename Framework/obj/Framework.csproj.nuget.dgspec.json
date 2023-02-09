@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danny/Desktop/AutomationAssessment/Framework/Framework.csproj": {}
+    "/Users/danny/Desktop/InspiredTestingAssessment/Framework/Framework.csproj": {}
   },
   "projects": {
-    "/Users/danny/Desktop/AutomationAssessment/Framework/Framework.csproj": {
+    "/Users/danny/Desktop/InspiredTestingAssessment/Framework/Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danny/Desktop/AutomationAssessment/Framework/Framework.csproj",
+        "projectUniqueName": "/Users/danny/Desktop/InspiredTestingAssessment/Framework/Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "/Users/danny/Desktop/AutomationAssessment/Framework/Framework.csproj",
+        "projectPath": "/Users/danny/Desktop/InspiredTestingAssessment/Framework/Framework.csproj",
         "packagesPath": "/Users/danny/.nuget/packages/",
-        "outputPath": "/Users/danny/Desktop/AutomationAssessment/Framework/obj/",
+        "outputPath": "/Users/danny/Desktop/InspiredTestingAssessment/Framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/danny/.nuget/NuGet/NuGet.Config"
