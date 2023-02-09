@@ -5,12 +5,14 @@ namespace Assessment.Pages
     public class ProductCardsPage
     {
         public readonly HeaderNav headerNav;
+        public readonly CartPage cartPage;
         public readonly ProductCardsPageMap Map;
 
         public ProductCardsPage(IWebDriver driver)
         {
             Map = new ProductCardsPageMap(driver);
             headerNav = new HeaderNav(driver);
+            cartPage = new CartPage(driver);
         }
 
         public ProductCardsPage Goto()
@@ -29,9 +31,15 @@ namespace Assessment.Pages
             return Map.Products(productName);
         }
 
-        public void ClickProductByName(string productName)
+        public void FindProductByName(string productName)
         {
-            Map.Products(productName).Click();
+            Map.Products(productName);
+        }
+
+        public void ClickItemByName(string itemName)
+        {
+            Map.Cookie.Click();
+            Map.Item(itemName).Click();
         }
     }
 
@@ -44,11 +52,11 @@ namespace Assessment.Pages
             _driver = driver;
         }
 
-        public IWebElement ProductCards => _driver.FindElement(By.XPath("//div[@data-ref='product-card']"));
-
-        //public IWebElement Products(string name) => _driver.FindElement(By.CssSelector($"a[href*='{name}']"));
-
         public IWebElement Products(string name) => _driver.FindElement(By.XPath($"//img[@alt='{name}']"));
+
+        public IWebElement Item(string name) => _driver.FindElement(By.CssSelector($"a[href*='{name}']"));
+
+        public IWebElement Cookie => _driver.FindElement(By.XPath("//button[@class='button cookies-banner-module_dismiss-button_24Z98']"));
     }
 }
 

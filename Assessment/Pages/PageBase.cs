@@ -6,11 +6,12 @@ namespace Assessment.Pages
     {
         public readonly HeaderNav headerNav;
         public readonly ProductCardsPage productCardsPage;
-
+        public readonly CartPage cartPage;
         public PageBase(IWebDriver driver)
         {
             headerNav = new HeaderNav(driver);
             productCardsPage = new ProductCardsPage(driver);
+            cartPage = new CartPage(driver);
         }
     }
 }
